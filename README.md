@@ -1,4 +1,5 @@
-<span style="font-size: 18px;">Project Name</span> 
+Project Name
+
 RFID RC232 Communication
 
 Description
