@@ -1,4 +1,4 @@
-Project Name
+<span style="font-size: 18px;">Project Name</span> 
 RFID RC232 Communication
 
 Description
@@ -6,9 +6,9 @@ This project demonstrates communication with an RFID RC232 device using a serial
 It sends commands to the device and retrieves data from NFC tags.
 
 Prerequisites
-Windows operating system
-C compiler
-RFID RC232 device connected to your computer's serial port
+- Windows operating system
+- C compiler
+- RFID RC232 device connected to your computer's serial port
 
 Getting Started
 1. Clone the project repository.
@@ -25,8 +25,8 @@ Usage
 6. Close the serial port: The project closes the serial port after completing the communication.
 
 Configuration
-UART_COM_PORT: The COM port to which the RFID RC232 device is connected. Modify the value of this constant to match the actual COM port.
-MAX_TAG_LENGTH: The maximum length of the NFC tag data. Increase this value if the NFC tag data exceeds the default length.
+- UART_COM_PORT: The COM port to which the RFID RC232 device is connected. Modify the value of this constant to match the actual COM port.
+- MAX_TAG_LENGTH: The maximum length of the NFC tag data. Increase this value if the NFC tag data exceeds the default length.
 
 Contributing
 Contributions to this project are welcome. Please follow the guidelines for contributing mentioned in the project repository.
